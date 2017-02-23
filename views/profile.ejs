@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <% include header.ejs %>
+ </head>
+<body>
+   
+   <% include navbar.ejs %>
+
+            
+       <!-------------------------------
+          Start the carousel from here
+        ------------------------------->
+        <!--start the carousel from here-->
+       <div class="container">
+        <!--indicators-->
+        <div class="carousel slide" id="myCarousel">
+            <!--html image can be placed here directly but we intend to place images through CSS-->
+            <!--indicators-->
+            <ol class="carousel-indicators">
+                <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+                <li data-slide-to="1" data-target="#myCarousel"></li>
+                <li data-slide-to="2" data-target="#myCarousel"></li>
+                <li data-slide-to="3" data-target="#myCarousel"></li>
+            </ol>
+
+            <!--wrapper for slides-->
+            <div class="carousel-inner">
+
+                <div class="item active" id="slide1">
+                    <div class="carousel-caption">
+                        <h4>Work</h4>
+                        <p>Work Hard</p>
+                    </div><!--end carousel-caption-->
+                </div><!--end item-->
+
+                <div class="item" id="slide2">
+                    <div class="carousel-caption">
+                        <h4>Travel</h4>
+                        <p>Refreshment of mind begins with travel</p>
+                    </div><!--end carousel-caption-->
+                </div><!--end item-->
+
+                <div class="item" id="slide3">
+                    <div class="carousel-caption">
+                        <h4>Tech Life</h4>
+                        <p>A life filled with technologies</p>
+                    </div><!--end carousel-caption-->
+                </div><!--end item-->
+
+                <div class="item" id="slide4">
+                    <div class="carousel-caption">
+                        <h4>Peace</h4>
+                        <p>Peace for days :)</p>
+                    </div><!--end carousel-caption-->
+                </div><!--end item-->
+                <!--Carousel controls-->
+            </div><!--end carousel-inner-->
+            <!--carousel controls i.e.  the left and right arrows-->
+            <a href="#myCarousel" class="left carousel-control" data-slide="prev" ><span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a href="#myCarousel" class="right carousel-control" data-slide="next" ><span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div><!--end carousel slide-->
+        </div>
+        
+        <!------------------------------------------------
+                            SKILLS SECTION
+        ------------------------------------------------->
+        
+        <!--Start skills section-->
+            <div class="row" id="skillsHeading">
+               <div class="container">
+                
+                   <h3>Introducing...</h3><br/>
+                 <div class="row">
+                   <div class="container">
+                   <img class = "img-responsive img-circle center-block curve" src="images/developerPhoto.jpg" alt="Developer Photo" id="developerPhoto" align = "bottom">
+                    
+                    <p class="lead">
+                           Hi, I am a designer and developer, with an arsenal of design and development skills. I intend to carve new paths in design and development and boost creativity in any working environment which can be business, personal or professional.
+                           My contact details are located in the contacts section as well as there are social media links at the bottom of webpage. This website has been developed with universal design accessibility concepts in mind.
+                           
+                       </p>
+                    </div>
+                    
+                   </div>
+                  
+                   
+                
+                </div><!--end container-->
+            </div> <!-- end skillsHeading-->
+            
+            <div class="container">
+            
+            <div class="row skills" id="skills">
+               
+                         <div class="col-md-4 skill" id="skill">
+                          <div class="panel panel-default">
+                              
+                            <h3 class="cpanel-title">Front-End Skills</h3>
+                       
+                                <div class="panel-body">
+                                    <p id="frontEnd">
+                                       <span class="row">
+                                        <img id="badge" src = "images/badge_css3.jpg" >
+                                        <img id="" src = "images/javascript.jpg" style="height: 150px; width: 150px" >
+                                        <img id="badge" src = "images/html.png" style="height:160px; width:160px" >
+                                        <img id="" src = "images/express.jpg" style="height: 150px; width: 150px" >
+                                        </span>
+                                    </p>
+                                  <a href="#" class="btn btn-warning btn-block" id ="frontEndInfo">Find out more</a>
+                                </div><!--end panel-body-->
+                        </div><!--end panel-default-->
+                    </div><!--end skill-->
+                            
+                        <div class="col-md-4 skill" id="skill">
+                          <div class="panel panel-default">
+                              
+                            <h3 class="cpanel-title">Back-End Skills</h3>
+                       
+                                <div class="panel-body">      
+                                    <p id="backEnd">
+                                       <span class="row">
+                                        <img id="badge" src = "images/nodejs.png" >
+                                        <img id="badge" src = "images/csharp.png" >
+                                        <img id="badge" src = "images/java.png" style="height: 150px; width:150px">
+                                        <img id="badge" src = "images/mongodb.png" >
+                                        </span>
+                                    </p>
+                                  <a href="#" class="btn btn-warning btn-block" id="backEndInfo">Find out more</a>
+                                </div><!--end panel-body-->
+                        </div><!--end panel-default-->
+                    </div><!--end skill-->
+                    
+                        <div class="col-md-4 skill">
+                          <div class="panel panel-default">
+                              
+                            <h3 class="cpanel-title">Other Skills</h3>
+                       
+                                <div class="panel-body">
+                                  <p id="other">
+                                       <span class="row">
+                                        <img id="" src = "images/openshift.png" style = "height: 150px; width: 150px" >
+                                        <img id="badge" src = "images/linux.png" >
+                                        <img id="" src = "images/subversion.png" style="height: 150px; width:150px" >
+                                        <img id="" src = "images/mysql.png" style="height: 150px; width: 150px" >
+                                        </span>
+                                    </p>
+                                  <a href="#" class="btn btn-warning btn-block" id="otherInfo">Find out more</a>
+                                </div><!--end panel-body-->
+                        </div><!--end panel-default-->
+                    </div><!--end skill-->
+            </div><!--end skills-->
+          </div>  
+       <!-------------------------------------------
+         More Information
+       -------------------------------------------->  
+       <div class="container">  
+        <div class="row" id="moreInfo">
+            <div class="col-sm-4">
+                <h3>Skills Information</h3>
+                <div class="tabbable">
+                    <ul id="myTabs" class="nav nav-tabs">
+                        <li class="active">
+                            <a href="#tab1" data-toggle="tab">Front-End</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#tab2" data-toggle="tab">Back-End</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#tab3" data-toggle="tab">Others</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        
+                        <div class="tab-pane active" id="tab1">
+                            
+                           <div id="detailTable" class="clear">
+                                <div class="detail">
+                                    <h2>Front-End<span>Details</span></h2>
+                                        <h3>Technology and Expertise</h3>  
+                                    <ul>
+                                        <li><b>CSS</b> Advanced</li>
+                                        <li><b>HTML</b> Advanced</li>
+                                        <li><b>Javascript</b> Advanced</li>
+                                        <li><b>Express</b> Advanced</li>			
+                                    </ul> 
+                                </div><!--end detail-->
+                            </div><!--end detailTable-->
+                        </div><!--end tab1-->
+                        
+                        <div class="tab-pane" id="tab2">
+                            <div id="detailTable" class="clear">
+                            <div class="detail">
+                                    <h2>Back-End<span>Details</span></h2>
+                                      <h3>Technology and Expertise</h3>     
+                                    <ul>
+                                        <li><b>nodeJS</b>Advanced</li>
+                                        <li><b>Java</b>Advanced</li>
+                                        <li><b>C#</b>Advanced</li>
+                                        <li><b>mongoDB</b>Experienced</li>			
+                                    </ul>    
+                                </div><!--end detail-->
+                            </div><!--end detailTable-->
+                        </div><!--end tab2-->
+                        
+                        <div class="tab-pane" id="tab3">
+                          <div id="detailTable" class="clear">
+                            <div class="detail">
+                                    <h2>Other<span>Details</span></h2>
+                                    <h3>Technology and Expertise</h3>
+                                    <ul>
+                                        <li><b>Openshift</b>Advanced</li>
+                                        <li><b>Linux</b>Advanced</li>
+                                        <li><b>Subversion</b>Advanced</li>
+                                        <li><b>MySQL</b>Advanced</li>			
+                                    </ul>
+                            </div><!--end detail-->
+                          </div><!--end detailTable-->
+                        </div><!--end tab3-->
+                        
+                        
+                    </div><!-- end tab-content-->
+                </div><!--end tabbable-->
+            </div><!--end col-sm-4-->
+            <div class="col-sm-8">
+                <h3>Details</h3>
+                <h4><strong>Front-End</strong></h4>
+                <p>I am a developer and designer with command on backbone front-end technologies such as HTML, CSS, Javascript as well as in newer ones such as AngularJS, ExpressJS. I have advanced knowledge of the above mentioned technologies including framework like Bootstrap</p>
+                <h4><strong>Back-End</strong></h4>
+                <p>I have had extensive experience of working with back-end technologies as well such as scripting languages (NodeJS, Python) and Compiled languages (Java, C#). I have good grasp of SOA, APIs, RESTful services, Security (Authorization/Authentication).</p>
+                <h4><strong>Others</strong></h4>
+                I have working knowledge over production technologies including Web Platforms (Heroku, Digital Ocean, Openshift), Server Management (Linux, Docker), Caching(Apache), Source Control(Subversion), Database(MongoDB, MySQL), Testing and Deployments(CodeShip, Jenkins), Unit Testing(Mocha, Jasmine, Karma)
+                
+                <!------------------------------------------
+                 !!!!!!! Interactive Map starts here !!!!!!!!
+                -------------------------------------------->
+                
+                <strong>Find me here!</strong>
+                <h4>
+                    <span class="glyphicon glyphicon-map-marker"></span> Location <small>More Info:</small>
+                </h4>
+                            
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000.1066597412284!2d10.739632715802834!3d59.91377718186718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e7d4b88c801%3A0x7c7d9a4f7fb9f738!2sStortinget!5e0!3m2!1sen!2sno!4v1486825186869" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div><!--en col-sm-8-->
+        </div><!--end moreInfo-->
+      </div><!--end container-->
+       
+       <!-------------------------------------------
+       Footer starts here!
+       -------------------------------------------->
+<% include footer.ejs %>
+ <% include script.ejs %>
+</body>
+</html>

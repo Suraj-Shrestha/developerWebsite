@@ -1,0 +1,56 @@
+{
+  "projects": [{
+    "title" : "MEAN full-stack application",
+    "project_number" : "1",
+    "main_characters" : ["MeanDB", "ExpressJS", "AngularJS", "NodeJS"],
+    "description" : "The term MEAN stack refers to a collection of JavaScript based technologies used to develop web applications. MEAN is an acronym for MongoDB, ExpressJS, AngularJS and Node.js. From client to server to database, MEAN is full stack JavaScript. This article explores the basics of the MEAN stack and shows how to create a simple bucket list application.The MEAN stack represents a thoroughly modern approach to web development: one in which a single language (JavaScript) runs on every tier of your application, from client to server to persistence. This series demonstrates what a MEAN web development project looks like end-to-end, going beyond simple syntax. ",
+    "poster" : "portfolio-mean.png",
+    "hero_image" : "portfolio-mean.jpg"
+  },
+
+  {
+    "title" : ".NET framework Development",
+    "project_number" : "2",
+    "main_characters" : [".NET architecture", "Framework Class Library", "language interoperability", "Common Language Runtime"],
+    "description" : ".NET is a programming infrastructure created by Microsoft for building, deploying, and running applications and services that use .NET technologies, such as desktop applications and Web services. The .NET Framework contains three major parts: the Common Language Runtime. the Framework Class Library.NET provides an object oriented environment. It ensures safe execution of the code by performing required runtime validations. For example, it is never possible to access an element of an array outside the boundary. Similarly, it is not possible to a program to write into another programs area, etc. The runtime validations performed by .NET makes the entire environment robust. ",
+    "poster" : "portfolio-net.png",
+    "hero_image" : "portfolio-net.jpg"
+  },
+
+  {
+    "title" : "React Application Development",
+    "project_number" : "3",
+    "main_characters" : ["Lightweight DOM", "Easy learning curve", "Adaptability", "Free and Open source", "Server-side communication", "Light Railing", "Aynchronous Functions and Generators", "Flux library"],
+    "description" : "React.js is a JavaScript library for building user interfaces, built by top engineers at Facebook. ... React is a JavaScript library, but is often mistakenly referred to as a framework. Like many popular frameworks (Bootstrap, for example), React is all about reusable components.  It has a very high adoption rate, with big names like Netflix, Yahoo, and Facebook, among many, many others using it for Web sites, mobile applications, and even for VR applications. React.JS is simply a library concerned with components utilizing the expressiveness of JavaScript intermixed with an HTML-like template syntax.",
+    "poster" : "portfolio-react.png",
+    "hero_image" : "portfolio-react.jpg"
+  },
+
+  {
+    "title" : "ionic mobile app framework ",
+    "project_number" : "4",
+    "main_characters" : ["Free and Open Source", "Based on SASS", "Creation of Hybrid apps", "Uses Angular JS/ HTML5", "Powerful CLI"],
+    "description" : "Ionic, a complete open-source SDK for HTML5 mobile app development frameworks is targeted at building hybrid mobile apps (a web app, mainly built using HTML5 and JavaScript), which are basically small websites running in a browser shell in an app that have access to the native platform layer. Additionally, hybrid apps have lots of advantages in comparison to pure native apps (an application program that has been developed for use on a particular device or platform), generally in terms of platform support, access to 3rd party code and of course speed of development. Ionic helps to build hybrid apps using HTML5, and makes use of Angularjs for creating a powerful SDK perfectly-suited to develop highly interactive apps. It provides a great range of tools and services that make using the framework, and once you’ve got node installed, then Ionic is as easy as running.",
+    "poster" : "portfolio-ionic.jpg",
+    "hero_image" : "portfolio-ionic.png"
+  },
+
+  {
+    "title" : "Mobile application development",
+    "project_number" : "5",
+    "main_characters" : ["Simplicity", "Good Performance", "Security", "Personalized options", "Social Media Integration"],
+    "description" : "Mobile application development is a term used to denote the act or process by which application software is developed for mobile devices, such as personal digital assistants, enterprise digital assistants or mobile phones. There are two broad paths that can be taken. One path has the Web browser as its destination. The idea is simple: Write once for a Web browser and you don't have to develop a separate application for each platform. Of course, developers know that reality isn't nearly as simple as the idea, but programmers can still write versions of an application for many different platforms using a single language and many pieces of re-usable code. The other path arrives at a dedicated app for each mobile device. There are obvious costs associated with developing a separate app for each platform, but there are advantages, as well. One of the most important is that performance of a dedicated app will almost certainly be better than the performance of an app that has to run through a browser for everything that happens.",
+    "poster" : "portfolio-mobileDevelopment.png",
+    "hero_image" : "portfolio-mobileDevelopment.jpg"
+  },
+
+  {
+    "title" : "Universal Design and Accessible Application Development",
+    "project_number" : "6",
+    "main_characters" : ["Equitable Use", "Flexibility in Use", "Simple and Intuitive Use", "Perceptible Information", "Tolerance for Error", "Low Physical Effort", "Size and Space for Approach and Use"],
+    "description" : "Universal Design is the design and composition of an environment so that it can be accessed, understood and used to the greatest extent possible by all people regardless of their age, size, ability or disability.As a design process universal design does not suggest producing a one size-fits all product or service. Rather it seeks to encourage the development of ICTS that are usable and accessible to the widest range of people. The interfaces to ICTS, in particular application software and websites, have the potential to offer high levels of flexibility of use to the user than can be easily achieved within building or product design. The following examples show the flexibility that ICT interfaces have to meet a person’s specific requirements.",
+    "poster" : "portfolio-universalDesign.jpg",
+    "hero_image" : "portfolio-universalDesign.png"
+  }]
+
+}

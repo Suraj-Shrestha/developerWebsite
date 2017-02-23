@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <style type="text/css">
+            body{
+                background-image: url(images/login-background.jpg);
+                background-size: cover;
+            }
+            h2{
+                float: left;
+                color: #fff;
+                font-family: 'Eco',sans-serif;
+                font-size: 40px;
+                font-weight: 200;
+            }
+             h2 span{
+                color: #F29E20;
+            }
+            .login{
+                width: 300px;
+                height: 500px;
+                background-color: rgba(0,0,0,0.5);
+                margin:0 auto;
+                margin-top:40px;
+                padding:10px;
+                padding-left:50px;
+                border-radius: 15px;
+                -webkit-border-radius:15px;
+                -o-border-radius:15px;
+                -moz-border-radius:15px;
+                color:white;
+                font-weight: bolder;
+                box-shadow: inset -4px -4px rgba(0,0,0,0.5);
+                font-size: 18px;
+            }
+            .login input[type="text"]{
+                width: 200px;
+                height: 35px;
+                 padding-left: 10px;
+                border:0;
+                border-radius:5px;
+                -webkit-border-radius:5px;
+                -o-border-radius: 5px;
+                -moz-border-radius:5px;
+            }
+            .login input[type="password"]{
+                width: 200px;
+                height: 35px;
+                 padding-left: 10px;
+                border:0;
+                border-radius:5px;
+                -webkit-border-radius:5px;
+                -o-border-radius: 5px;
+                -moz-border-radius:5px;
+            }
+            .login input[type="button"]{
+                width: 100px;
+                height: 35px;
+                border:0;
+                border-radius:5px;
+                -webkit-border-radius:5px;
+                -o-border-radius: 5px;
+                -moz-border-radius:5px;
+                background-color:burlywood;
+                font-weight:bold;
+            }
+            
+        </style>
+    </head>
+    <body>
+       <div class="login">
+           <h2>SignUp<span>HERE</span></h2>
+           <form action="/signup" name="signup" method="POST">
+                    <input type="text" placeholder="first name" name="firstName"><br><br>
+                    <input type="text" placeholder="middle name" name="middleName"><br><br>
+                    <input type="text" placeholder="last name" name="lastName"><br><br>
+                   <input type="text" placeholder="username" name="userid"><br><br>
+                   <input type="password" placeholder="password" name="pwd"><br><br>
+                   <input type="password" placeholder="Confirm password" name="confPwd"><br><br>
+                   <input type="submit" value="Sign Up">
+           </form>
+       </div>        
+    </body>
+</html>

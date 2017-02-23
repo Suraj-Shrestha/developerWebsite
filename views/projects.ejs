@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <% include header.ejs %>
+
+</head>
+<body>
+	<% include navbar.ejs %>
+  
+   <div id="hero-image">
+       <h1 id="banner-title" style="color:black"> <%= title %> </h1>
+   </div>
+   <center><h1 style="text-decoration:underline">Click on the images below to get more details</h1></center>
+   
+   <div id="posters-wrapper" class="content-padding clearfix">
+       <% for(var i=0; i<projects.length; i++) {%>
+       <div class="poster">
+         <a href="/project_types/<%= projects[i].project_number %>">
+              <img src = "images/<%= projects[i].poster %>" class="img-responsive">
+
+              <div class="poster-info-overlay">
+                  <h3><%= projects[i].title %></h3>
+                  <h4>View More <i class="fa fa-arrow-right"></i></h4>
+              </div>
+          </a>
+      </div>
+      <% } %>
+      
+    </div>
+         
+       
+</body>
+  <%include footer.ejs %>
+  <%include script.ejs %>
+</html>

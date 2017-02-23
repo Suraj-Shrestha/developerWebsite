@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include header.ejs %>
+   <style type="text/css">
+    body.aboutBackground{
+    background-image: url('/images/about-background.jpg');
+    background-size: cover;
+    background-position: right top;
+}
+    </style>
+    
+</head>
+<body class="aboutBackground">
+
+    <% include navbar.ejs %>
+   <div id="about-image">
+       <h1 id="banner-title" style="color:black"><%= title %> </h1>
+   </div>
+  
+   <div class="container-fluid">
+     <div class="row-fluid">
+    
+      <div class="col-sm-6">
+          <div class="panel-body" id="devInfoPanel-about">
+          
+           <div class="row">
+            <div class="col-sm-2">
+            <p style="padding-left: 10px;">
+             WHO 
+             </p>
+             </div><!--end col-sm-2-->
+             <div class="col-sm-10">
+              <p style="padding-right: 5px;">
+                  FirstName: Suraj<br/>
+                  LastName:  Shrestha<br/>
+              </p>
+            </div><!--end col-sm-10-->
+            </div><!--end row-->
+            
+            <div class="row-fluid">
+            <div class="col-sm-2">
+            <p style="padding-left: 10px">
+             WHEN 
+             </p>
+             </div><!--end col-sm-2-->
+             <div class="col-sm-10">
+              <p style="padding-right: 5px;">
+                  5 Years +
+              </p>
+            </div><!--end col-sm-10-->
+            </div><!--end row-->
+            
+            <div class="row-fluid">
+            <div class="col-sm-2">
+            <p style="padding-left: 10px;">
+             WHAT 
+             </p>
+             </div>
+             <div class="col-sm-10">
+              <p style="padding-right: 5px;">
+                 Software development<br/>
+                 Front-end<br/>
+                 Back-end<br/>
+                 Universal Design/ Accessibility Specialist<br/>
+              </p>
+            </div><!--end col-sm-10-->
+            </div><!--end row-->
+            
+          </div><!--end devInfoPanel-about-->
+       </div><!--end col-sm-8-->
+       
+       <div class="col-sm-4">
+        <img src="/images/developerPhoto-about.jpg" alt="Developer Photo" id="developerPhoto-about" class="img-responsive">
+        <center><figcaption>Developer Photo</figcaption></center>
+       </div><!--end col-sm-4-->
+       </div><!--end row-->
+      </div><!--end container--> 
+
+    <div class="container">
+        <div class="row-fluid">
+            <p class="movie-header">
+                SKILLS
+            </p>
+        </div><!--end row-fluid-->
+    </div><!--end container-->
+    <div class="row-fluid">
+        <div class="container">
+            <div class="col-sm-3">
+                <p class="personalDetails">
+                    <img src="/images/frontend-about.jpg" alt="Image for frontend development" id="thumbnails-about" class="img-responsive img-thumbnail">
+                </p>
+                <ul id="nav">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>JQuery</li>
+                    <li>AngularJS</li>
+                    <li>ExpressJS</li>
+                </ul>
+            </div><!--end col-sm-3-->
+            
+            <div class="col-sm-3">
+                <p class="personalDetails">
+                    <img src="/images/backend-about.jpg" alt="Image for backend development" id="thumbnails-about" class="img-responsive img-thumnbnail">
+                </p>
+                <ul id="nav">
+                        <li>NodeJS</li>
+                        <li>Java</li>
+                        <li>C#</li>
+                        <li>SOA</li>
+                        <li>Database (mongoDB, MySQL)</li>
+                        <li>Security</li>
+                </ul>
+            </div><!--end col-sm-3-->
+            <div class="col-sm-3">
+                <p class="personalDetails">
+                    <img src="/images/universalDesign-about.jpg" alt="Image for universal design" id = "thumbnails-about" class="img-responsive img-thumnbnail">
+                </p>
+                <ul id="nav">
+                        <li>Accessible web development</li>
+                        <li>Design standardized software </li>
+                        <li>User foused designs</li>
+                        <li>Application development</li>
+                        <li>Accessible product development(mongoDB, MySQL)</li>
+                        <li>Knowledge on various universal design standards</li>
+                </ul>
+            </div><!--end col-sm-3-->
+            <div class="col-sm-3">
+                <p class="personalDetails">
+                    <img src="/images/testing-about.png" alt="Images for testing and deployment" id= "thumbnails-about" class="img-responsive img-thumnbnail">
+                </p>
+                <ul id="nav">
+                    <li>Codeship</li>
+                    <li>Jenkins</li>
+                    <li>Semaphore</li>
+                    <li>Mocha</li>
+                    <li>Jasmine</li>
+                    <li>Karma</li>
+                </ul>
+            </div><!--end col-sm-3-->
+        </div><!--end container-->
+    </div><!--end row-fluid-->
+    
+        
+            
+        
+
+    
+</body>
+    <% include footer.ejs %>
+ <% include script.ejs %>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MEAN authentication</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <style>
+        body: {
+            padding-top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-6 col-sm-offset-3">
+           <h1 style="color:red"> To login use the following username/password combination<br/><br/>
+           Username: suraj@xyz.com<br/>
+           Password: Suraj123<br/>
+           </h1>
+           
+            <h1><span class="fa fa-sign"></span>Login</h1>
+            
+            <!-- messages from authentication shown here-->
+            <% if(message.length > 0) { %>
+                <div class="alert alert-danger"><%= message %></div>
+            <% } %>
+            
+            <!--Login form starts here-->
+            <form action="/login" method="POST">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" name="password">
+                </div>
+                
+                <button type="submit" class="btn btn-default btn-lg">Login</button>
+                
+            </form>
+            
+            <hr>
+            
+            <p>Sign up for a new account <a href="/signup">Signup</a></p>
+            <p>Go Back<a href="/">Home</a></p>
+        </div>
+    </div>
+</body>
+</html>
