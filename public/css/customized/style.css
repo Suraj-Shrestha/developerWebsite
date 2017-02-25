@@ -411,6 +411,30 @@ ul.dropdown-menu li a:hover{
 #slide4{
     background:url("/images/carousel-hands-new-md.jpg") top center no-repeat;
 }
+.contactUsBox{
+                min-width: 320px;
+                min-height: 320px;
+                background-color: rgba(000,000,000,0.7);
+                margin:0 auto;
+                margin-top:40px;
+                padding:10px;
+                padding-left:0px;
+                border-radius: 15px;
+                -webkit-border-radius:15px;
+                -o-border-radius:15px;
+                -moz-border-radius:15px;
+                color:white;
+                font-weight: bolder;
+                box-shadow: inset -4px -4px rgba(0,0,0,0.5);
+                font-size: 18px;
+                position: relative;
+                top: 60px;
+            }
+#connectMore li img{
+                height: 150px;
+                width: 150px;
+                opacity: 1;    
+}
 
 
 /* --------------------------------------
@@ -452,6 +476,34 @@ ul.dropdown-menu li a:hover{
     .dropdown:hover .dropdown-menu{
         display: block;
     }
+    .contactUsBox{
+                min-width: 320px;
+                min-height: 320px;
+                background-color: rgba(000,000,000,0.7);
+                margin:0 auto;
+                margin-top:40px;
+                padding:10px;
+                padding-left:0px;
+                border-radius: 15px;
+                -webkit-border-radius:15px;
+                -o-border-radius:15px;
+                -moz-border-radius:15px;
+                color:white;
+                font-weight: bolder;
+                box-shadow: inset -4px -4px rgba(0,0,0,0.5);
+                font-size: 18px;
+                position: relative;
+                top: 60px;
+            }
+    #connectMore li img{
+                    height: 150px;
+                    width: 150px;
+                    opacity: 1;    
+    }
+    iframe{
+                height: 250px;
+                width: 250px;
+    }
     
 }
 
@@ -472,8 +524,35 @@ ul.dropdown-menu li a:hover{
     #slide4{
         background:url("/images/carousel-hands-new-lg.jpg") top center no-repeat;
     }
-    
-}
+    .contactUsBox{
+                min-width: 320px;
+                min-height: 320px;
+                background-color: rgba(000,000,000,0.7);
+                margin:0 auto;
+                margin-top:40px;
+                padding:10px;
+                padding-left:0px;
+                border-radius: 15px;
+                -webkit-border-radius:15px;
+                -o-border-radius:15px;
+                -moz-border-radius:15px;
+                color:white;
+                font-weight: bolder;
+                box-shadow: inset -4px -4px rgba(0,0,0,0.5);
+                font-size: 18px;
+                position: relative;
+                top: 60px;
+            }
+    #connectMore li img{
+                    height: 150px;
+                    width: 150px;
+                    opacity: 1;    
+    }
+    iframe{
+        height: 350px;
+        width: 350px;
+    }
+    }
 
 /*----------------------------------
             Skills
@@ -833,30 +912,7 @@ ul.socialLinks li img{
             top: 50px;
             height: 180px;
         }
-.contactUsBox{
-                width: 320px;
-                height: 320px;
-                background-color: rgba(000,000,000,0.7);
-                margin:0 auto;
-                margin-top:40px;
-                padding:10px;
-                padding-left:0px;
-                border-radius: 15px;
-                -webkit-border-radius:15px;
-                -o-border-radius:15px;
-                -moz-border-radius:15px;
-                color:white;
-                font-weight: bolder;
-                box-shadow: inset -4px -4px rgba(0,0,0,0.5);
-                font-size: 18px;
-                position: relative;
-                top: 60px;
-            }
-contactBoxImages li img{
-                height: 150px;
-                width: 150px;
-                opacity: 0.5;    
-}
+
 p.lead{
  text-align: center;   
 }
