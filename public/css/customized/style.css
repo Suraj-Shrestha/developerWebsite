@@ -105,11 +105,11 @@ Project-Single Hero Image and Title Styles
 /* ---------------------------------------
 Project-Single Poster and Description Styles 
 ------------------------------------------ */
-.poster-wrapper {
+/*.poster-wrapper {
 	float: left;
 	width: 30%;
 	margin-top: 50px;
-}
+}*/
 
 .description-wrapper {
 	float: right;
@@ -127,7 +127,7 @@ Project-Single Poster and Description Styles
   border: 2px solid #fff;
   display: inline-block;
   margin-top: 0px;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
     background-color:black;
 }
 
@@ -435,6 +435,21 @@ ul.dropdown-menu li a:hover{
                 width: 150px;
                 opacity: 1;    
 }
+#about-image {
+	min-height: 320px;
+	min-width: 120px;
+	background-color: #444;
+	background-image: url('/images/about-banner-md.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+.poster-wrapper {
+	float: left;
+	width: 30%;
+	margin-top: 50px;
+}
 
 
 /* --------------------------------------
@@ -504,6 +519,21 @@ ul.dropdown-menu li a:hover{
                 height: 250px;
                 width: 250px;
     }
+    #about-image {
+	min-height: 320px;
+	min-width: 120px;
+	background-color: #444;
+	background-image: url('/images/about-banner-sm.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+    .poster-wrapper {
+	float: left;
+	width: 100%;
+	margin-top: 50px;
+}
     
 }
 
@@ -530,8 +560,9 @@ ul.dropdown-menu li a:hover{
                 background-color: rgba(000,000,000,0.7);
                 margin:0 auto;
                 margin-top:40px;
-                padding:10px;
+               
                 padding-left:0px;
+                padding-bottom: 30px;
                 border-radius: 15px;
                 -webkit-border-radius:15px;
                 -o-border-radius:15px;
@@ -552,6 +583,21 @@ ul.dropdown-menu li a:hover{
         height: 350px;
         width: 350px;
     }
+    #about-image {
+	min-height: 320px;
+	min-width: 320%;
+	background-color: #444;
+	background-image: url('/images/about-banner-lg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+    .poster-wrapper {
+	float: left;
+	width: 30%;
+	margin-top: 50px;
+}
     }
 
 /*----------------------------------
@@ -618,6 +664,9 @@ ul.dropdown-menu li a:hover{
     left: 250px;
     height:250px;
     font-size: 1.4em;
+}
+.panel-body{
+    padding: 0px;
 }
 
 /*----------------------------------
@@ -800,7 +849,7 @@ ul.dropdown-menu li a:hover{
     top: 30px;
     padding-right: 0px;
     margin-right: 0px;
-   
+    
 }
 
 figcaption{
@@ -826,10 +875,10 @@ body.aboutBackground{
     top: 30px;
     color:white;
     font-size: 1.8em;
-    padding-left: 0px;
     margin-left: 0px;
     background-color: black;
     padding:0px;
+    padding-right: 10px;
     margin: 0px;
     text-align: right;
 }
@@ -837,18 +886,18 @@ body.aboutBackground{
     padding-right: 0px;
     margin-right: 0px;    
 }
-.col-sm-4{
+/*.col-sm-4{
     padding-left:0px;
     margin-left: 0px;  
-}
-.col-sm-6{
+}*/
+/*.col-sm-6{
     padding-right: 0px;
     margin-right: 0px;
-}
+}*/
 ul#nav{
     padding-left: 0px;
     padding-right: 0px;
-    width: 200px;
+    
 }
 ul#nav li  {
  	color: #ccc;
@@ -869,9 +918,26 @@ ul#nav li  {
  	padding-left:30px;
  }
 #thumbnails-about{
-    height: 200px;
-    width: 200px;
+   /* height: 200px;
+    width: 200px;*/
 }
+#aboutDeveloperDetails{
+    padding-left:0px;
+    padding-right: 0px;
+}
+#aboutDeveloperPhoto{
+    padding-right:15px;
+    padding-left:0px;
+}
+#aboutSkills{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.col-sm-10 .col-md-10 .col-lg-10{
+    padding: 0;
+}
+
+
 /*-----------------------------------
         Contact Us Page
 -----------------------------------*/
@@ -946,12 +1012,12 @@ footer.first{
             color: #FFF;
             text-decoration: none;
         }
-section{
-            width: 29%;
+/*section{
+            width: 28%;
             float: left;
             margin: 2% 2%;
             text-align: center;
-        }
+        }*/
 ul.social{
     padding:0px;
 }

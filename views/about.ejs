@@ -14,6 +14,7 @@
 <body class="aboutBackground">
 
     <% include navbar.ejs %>
+    
    <div id="about-image">
        <h1 id="banner-title" style="color:black"><%= title %> </h1>
    </div>
@@ -21,7 +22,7 @@
    <div class="container-fluid">
      <div class="row-fluid">
     
-      <div class="col-sm-6">
+      <div class="col-sm-6" id="aboutDeveloperDetails">
           <div class="panel-body" id="devInfoPanel-about">
           
            <div class="row">
@@ -38,7 +39,7 @@
             </div><!--end col-sm-10-->
             </div><!--end row-->
             
-            <div class="row-fluid">
+            <div class="row">
             <div class="col-sm-2">
             <p style="padding-left: 10px">
              WHEN 
@@ -51,7 +52,7 @@
             </div><!--end col-sm-10-->
             </div><!--end row-->
             
-            <div class="row-fluid">
+            <div class="row">
             <div class="col-sm-2">
             <p style="padding-left: 10px;">
              WHAT 
@@ -70,18 +71,19 @@
           </div><!--end devInfoPanel-about-->
        </div><!--end col-sm-8-->
        
-       <div class="col-sm-4">
+       <div class="col-sm-4" id="aboutDeveloperPhoto">
         <img src="/images/developerPhoto-about.jpg" alt="Developer Photo" id="developerPhoto-about" class="img-responsive">
-        <center><figcaption>Developer Photo</figcaption></center>
+        <center><figcaption style="padding-bottom: 20px;">Developer Photo</figcaption></center>
        </div><!--end col-sm-4-->
        </div><!--end row-->
       </div><!--end container--> 
-
+<div class="row">
     <div class="container">
-        <div class="row-fluid">
+           <div class="col-sm-4" id="aboutSkills">
             <p class="movie-header">
                 SKILLS
             </p>
+           </div><!--end col-sm-4-->
         </div><!--end row-fluid-->
     </div><!--end container-->
     <div class="row-fluid">
